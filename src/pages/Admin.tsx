@@ -8,7 +8,7 @@ const Admin = () => {
       <div className="flex min-h-screen w-full">
         <AdminSidebar />
         <main className="flex-1">
-          <header className="h-12 flex items-center border-b border-border px-4">
+          <header className="h-12 flex items-center border-b border-border px-4 bg-admin-header text-admin-header-foreground">
             <SidebarTrigger />
           </header>
           <Outlet />
